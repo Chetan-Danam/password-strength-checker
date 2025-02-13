@@ -1,3 +1,40 @@
+# Password Strength Evaluation Tool
+
+This Python tool evaluates the strength of a password based on several factors:
+- Length
+- Complexity (uppercase, lowercase, digits, special characters)
+- Uniqueness (whether the password is common or contains repeating characters)
+
+## Features
+- Checks if the password meets a minimum length requirement.
+- Ensures password complexity by checking for uppercase, lowercase, digits, and special characters.
+- Warns if the password is too common or has repeating characters.
+
+## Installation
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/yourusername/password-strength-evaluator.git
+    ```
+2. Navigate into the project directory:
+    ```bash
+    cd password-strength-evaluator
+    ```
+3. Install required dependencies (if any):
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Run the script:
+    ```bash
+    python password_strength.py
+    ```
+2. Enter a password when prompted.
+3. The script will provide feedback on the password's strength, highlighting any weaknesses.
+
+## Example Output
+
+
 import re
 
 # Constants
